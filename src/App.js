@@ -30,7 +30,7 @@ export default function App() {
         transition={{ duration: 0.6 }}
       >
         <div className="marquee-text">
-          🍽️ Let's Findout Your Favourite Recipe Through Recipe Finder 🍽️
+          🍽️ Let's Make Your Favourite Food Through Recipe Finder 🍽️
         </div>
       </motion.div>
 
@@ -71,7 +71,6 @@ export default function App() {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.4 }}
-            whileHover={{ scale: 1.05 }}
           >
             <img
               src={meal.strMealThumb}
